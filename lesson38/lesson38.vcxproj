@@ -127,7 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Human.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="myQueue.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="Time_.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Human.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="myQueue.h" />
+    <ClInclude Include="PriorityQueue.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="Time_.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
